@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+  background-image:url("thermo.jpg");
+  background-size: cover;
+  background-position:center
+}
+
+h1{
+    font-size:40px;
+    font-family:cursive;
+    border:3px solid black;
+    border-radius:8px;
+    background-color:rgb(36, 155, 15);
+    color:rgb(0, 0, 0);
+}
+
+#body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    align-content:center;
+}
+
+  input {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  label{
+    font-size:20px;
+  }
+
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top:20px;
+  }
+
+  button:hover{
+    background-color:rgb(109, 184, 34);
+  }
+
+  #result {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+  }
